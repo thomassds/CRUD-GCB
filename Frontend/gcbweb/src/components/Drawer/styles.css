@@ -1,0 +1,23 @@
+div#Container {
+    width: 300px;
+    height: 909px;
+    background: #da552f;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    
+}
+div#list{
+    width: 250px;
+    height: 800px;
+    justify-content: center;    
+}
+div#menu{
+    width: 200px;
+    height: 80px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: left;
+}

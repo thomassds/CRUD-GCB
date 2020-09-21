@@ -11,4 +11,6 @@ routes.delete('/doctors/:doctor_id', DoctorController.remove)
 
 routes.get('/doctors/:doctor_id/specs', SpecController.index);
 routes.post('/doctors/:doctor_id/specs', SpecController.store);
+routes.delete('/doctors/:doctor_id/specs/:spec_id', SpecController.delete);
+
 module.exports = routes;
